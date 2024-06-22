@@ -6490,16 +6490,6 @@
 		)
 		(uuid "11859a4f-7dd5-4170-8493-b474ebd8b9dc")
 	)
-	(text "\"A15\" on the game boy cartridge connector isn't exactly A15 from the CPU.\nIt's a signal that's low when the Game Boy is accessing $0000-$7FFF,\nbut its timing is different from the rest of the address bus and it acts \nmore like a bus enable signal. Similarly, \"CS\" is low when the Game Boy \nis accessing $A000-$FDFF, but it shares this same different timing with \"A15\".\n"
-		(exclude_from_sim no)
-		(at 132.842 170.942 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "50bef755-60e4-47c9-9c7c-98307718df41")
-	)
 	(label "A14"
 		(at 64.77 113.03 0)
 		(fields_autoplaced yes)
@@ -9919,7 +9909,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100 nF"
 			(at 368.3 116.8462 0)
 			(effects
 				(font
@@ -10991,7 +10981,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100 nF"
 			(at 362.458 165.354 0)
 			(effects
 				(font
